@@ -1,0 +1,22 @@
+header,
+nav,
+main,
+footer {
+  max-width: 60rem;
+  margin: auto;
+}
+
+section {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+nav{
+ul {
+  justify-content: flex-end;
+
+li a{
+  border-bottom:none;
+  margin:0;
+  padding:.6rem 1rem;
+}
+}
+}
