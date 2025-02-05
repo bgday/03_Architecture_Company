@@ -36,6 +36,7 @@ header {
   padding: 1rem $gutter;
   h1 {
     margin: 1rem;
+    text-shadow: 2px 2px 0px $accentColor;
   }
   img {
     display: block;
@@ -55,11 +56,13 @@ nav {
       color: $accentColor;
       text-decoration: underline;
       text-underline-offset: 5px;
+      text-shadow: .5px .5px 0px rgba(0, 0, 0, 0.5);
     }
     li a:hover {
       color:$accentColor;
       text-decoration: underline;
       text-underline-offset: 5px;
+      text-shadow: .5px .5px 0px rgba(0, 0, 0, 0.5);
     }
     li:last-child a {
       border-bottom: none;
