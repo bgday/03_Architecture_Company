@@ -366,11 +366,10 @@ nav ul {
 nav ul li.active a {
   color: #333;
   text-decoration: underline;
-  text-underline-offset: 12px;
+  text-underline-offset: 5px;
 }
 nav ul li a:hover {
   color: #333;
-  text-underline-offset: 12px;
   background-color: rgba(204, 84, 0, 0.5);
 }
 nav ul li:last-child a {
@@ -454,6 +453,10 @@ section div img {
   nav ul li a {
     border-bottom: none;
   }
+  nav ul li.active a {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+  }
   section {
     grid-template-columns: 1fr 1fr;
   }
@@ -475,5 +478,10 @@ section div img {
   nav ul li a {
     margin: 0;
     padding: 0.6rem 1rem;
+  }
+  nav ul li.active a {
+    color: #333;
+    text-decoration: underline;
+    text-underline-offset: 11px;
   }
 }

@@ -9,13 +9,18 @@ footer {
 section {
   grid-template-columns: 1fr 1fr 1fr;
 }
-nav{
-ul {
-  justify-content: flex-end;
+nav {
+  ul {
+    justify-content: flex-end;
 
-li a{
-  margin:0;
-  padding:.6rem 1rem;
-}
-}
+    li a {
+      margin: 0;
+      padding: 0.6rem 1rem;
+    }
+    li.active a {
+      color: $fontColor;
+      text-decoration: underline;
+      text-underline-offset: 11px;
+    }
+  }
 }

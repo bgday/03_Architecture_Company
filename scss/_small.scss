@@ -55,12 +55,10 @@ nav {
     li.active a {
       color: $fontColor;
       text-decoration: underline;
-      text-underline-offset: 12px;
+      text-underline-offset: 5px;
     }
     li a:hover {
       color:$fontColor;
-
-      text-underline-offset: 12px;
       background-color: rgba(204,84,0,0.5);
     }
     li:last-child a {
