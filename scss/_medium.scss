@@ -8,15 +8,13 @@ header {
 nav {
   ul {
     display: flex;
-
-    li a:hover {
-      color:$accentColor;
-      text-decoration: underline;
-      text-underline-offset: 5px;
-    }
   }
+
 }
 
+nav ul li a {
+  border-bottom:none;
+}
 // main
 
 section {
