@@ -339,7 +339,7 @@ body {
 
 #headerWrapper {
   background-color: rgb(38, 50, 56);
-  color: rgb(200, 200, 200);
+  color: rgb(220, 220, 220);
 }
 
 header {
@@ -355,7 +355,7 @@ header img {
 }
 
 #navWrapper {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(220, 220, 220);
 }
 
 nav ul {
@@ -395,7 +395,7 @@ nav ul li a {
   width: 100%;
 }
 #mainWrapper summary {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(220, 220, 220);
   margin-top: 1rem;
   padding: 0.75rem 16px;
 }
@@ -419,7 +419,7 @@ section div {
   text-align: center;
 }
 section div h2 {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(220, 220, 220);
   padding: 0.65rem;
   margin: 0;
   border-radius: 10px 10px 0 0;
@@ -431,7 +431,7 @@ section div img {
 }
 
 #footerWrapper {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(220, 220, 220);
   padding: 0.5rem 16px;
   color: rgb(38, 50, 56);
 }
